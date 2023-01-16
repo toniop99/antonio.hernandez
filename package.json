@@ -11,7 +11,8 @@
     "start": "astro dev",
     "lint": "eslint . --ext .js,.astro,.ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "astro": "1.9.0"
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "2.27.4",
     "eslint-plugin-n": "15.6.1",
     "eslint-plugin-promise": "6.1.1",
+    "husky": "8.0.3",
     "prettier": "2.8.3",
     "prettier-plugin-astro": "0.7.2"
   }
